@@ -1,0 +1,5 @@
+54
+2
+
+Create a folder in the app>src>main> called assets. In that folder just put a file called data.txt with 2 numbers on separate lines.
+And you can refer the code below for ActivityMain.java
