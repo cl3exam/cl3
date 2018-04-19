@@ -1,0 +1,72 @@
+<html>
+<head>
+<h1><center>CALCULATOR</center></h1>  
+<script type="text/javascript" src="cal.js"></script>  
+</head>
+<body bgcolor="orange">
+<center>
+<form id="frm1" action="">
+  <label for ="num1"><b> NUMBER 1 </b></label>
+<input id="num1" type="text" name="num1">
+<br><br>
+
+<label for ="num2"><b> NUMBER 2 </b></label>
+<input id="num2" type="text" name="num2"><br><br>
+
+
+<input type="radio" name="r1" value="Add">+
+<input type="radio" name="r1" value="Sub">-<br>
+<input type="radio" name="r1" value="Mul">*
+<input type="radio" name="r1" value="Div">/<br>
+<input type="radio" name="r1" value="sqrt">root<br>
+<input type="radio" name="r1" value="sin">Sin<br>
+<input type="radio" name="r1" value="cos">Cos<br>
+  <input type="button" value="Submit" onclick="myFunction()">
+</form> 
+<label for ="res"><b> RESULT </b></label>
+<input id="res" type="text" name="res"><br><br>
+<input type="button" value="Save" onclick="save()">
+<input type="button" value="Recall" onclick="recall()">
+<p id="demo"></p>
+
+
+</center>
+
+
+<br><br><br>
+
+<center>
+<h1>CURRENCY CONVERTER</h1>
+<form action="converter.jsp" method="post">
+<label for ="value"><b> VALUE </b></label>
+<input type="text" name="value"><br><br>
+
+<h3>FROM</h3>
+<select name="fromlist">
+  <option value="INR">INR</option>
+  <option value="USD">USD</option>
+  <option value="DHS">DHS</option>
+  <option value="GBP">GBP</option>
+</select>
+
+
+
+
+<h3>TO</h3>
+<select name="tolist">
+  <option value="INR">INR</option>
+  <option value="USD">USD</option>
+  <option value="DHS">DHS</option>
+  <option value="GBP">GBP</option>
+</select>
+<br>
+
+<input type="submit" value="convert">
+</form>
+
+</center>
+
+</body>
+
+
+</html>
